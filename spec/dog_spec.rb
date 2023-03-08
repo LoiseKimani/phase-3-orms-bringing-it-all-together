@@ -137,7 +137,7 @@ describe Dog do
     end
   end
 
-  BONUS! uncomment the tests below for an extra challenge
+  # BONUS! uncomment the tests below for an extra challenge
   describe '.find_or_create_by' do
     it 'creates an instance of a dog if it does not already exist' do
       dog1 = Dog.create(name: 'teddy', breed: 'cockapoo')
